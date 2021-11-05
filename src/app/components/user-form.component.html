@@ -1,0 +1,12 @@
+<form [formGroup]="userForm">
+    <mat-form-field appearance="fill" class="form-field">
+        <mat-label>First Name</mat-label>
+        <input matInput formControlName="firstName" name="firstName" [readonly]="readonly">
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="form-field">
+        <mat-label>Last Name</mat-label>
+        <input matInput formControlName="lastName" name="lastName" [readonly]="readonly">
+    </mat-form-field>        
+    <button class="button button-left" mat-raised-button color="primary" (click)="save()" cdkFocusInitial>{{buttonTitle}}</button>    
+    <button *ngIf="hasCancelButton" class="button button-right" mat-raised-button color="accent" (click)="cancel()">Cancel</button>
+</form>

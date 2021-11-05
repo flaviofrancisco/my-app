@@ -1,7 +1,7 @@
 # MyAppUi
 
 This simple Angular App just opens a modal with a form and persists the data into the CACHE on the backend of a .NET Core API that you may find in the following repository:
-https://github.com/flaviofrancisco/my-app-api/tree/master
+https://github.com/flaviofrancisco/my-app-api
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
